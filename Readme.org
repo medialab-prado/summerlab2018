@@ -6,5 +6,6 @@
 #+EMAIL: adolfo@medialab-prado.es
 #+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
 
-Participación en la sesión de Transparencia en las administraciones públicas organizada por Montera34 para el
-SummerLab2018, programa de HirikiLabs en Tabakalera
+Participación en el [[https://www.tabakalera.eu/es/encuentro-de-iniciativas-ciudadanas-para-la-transparencia][Encuentro de Iniciativas Ciudadanas para la Ciudadanía]], en el apartado de *Transparencia
+desde las administraciones públicas*, organizado por [[https://www.tabakalera.eu/es/grupos-abiertos/data-commons-lab-montera34][Data Commons Lab]] (liderado por [[https://montera34.com/][Montera34]]) para el
+[[https://www.tabakalera.eu/es/summerlab-2018-investigacion-ciudadana-uso-civico-tecnologia][SummerLab2018]], [[https://www.tabakalera.eu/es/summerlab-2018-investigacion-ciudadana-uso-civico-tecnologia][Investigación ciudadana y uso cívico de la ciudadanía]], programa de [[https://www.tabakalera.eu/es/hirikilabs-laboratorio-de-cultura-digital-y-tecnologia][HirikiLabs]] en [[https://www.tabakalera.eu/es/][Tabakalera]].
