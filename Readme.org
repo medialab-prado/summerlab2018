@@ -1,0 +1,10 @@
+#+TITLE: SummerLab2018 de HirikiLabs de Tabakalera de Donosti
+#+DESCRIPTION: Transparencia desde las instituciones
+#+TAGS: transparencia, datos abiertos, derecho de acceso, open data, participación
+#+DATE: <2018-07-11 mié>
+#+AUTHOR: Adolfo Antón Bravo
+#+EMAIL: adolfo@medialab-prado.es
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+
+Participación en la sesión de Transparencia en las administraciones públicas organizada por Montera34 para el
+SummerLab2018, programa de HirikiLabs en Tabakalera

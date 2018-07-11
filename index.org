@@ -1,0 +1,263 @@
+#+LANGUAGE: es
+#+CATEGORY: manual, presentación, congreso, ponencia
+#+TAGS: commandline, línea de comandos, ls, pwd, mkdir, cd, touch, cp, mv, stdin, stdout, stderr, posix, diff, grep, egrep, find, awk, sed
+#+DESCRIPTION: Acometer un proyecto en Medialab-Prado
+#+TITLE: Datalab transparente
+#+DATE: <2017-11-17 vie>
+#+AUTHOR: Adolfo A. Bravo
+#+EMAIL: adolfo@medialab-prado.es
+#+OPTIONS: todo:nil pri:nil tags:nil ^:nil 
+
+#+OPTIONS: reveal_center:t reveal_progress:t reveal_history:nil reveal_control:t
+#+OPTIONS: reveal_mathjax:t reveal_rolling_links:t reveal_keyboard:t reveal_overview:t num:nil reveal_title_slide:nil
+#+OPTIONS: reveal_width:1200 reveal_height:800
+#+OPTIONS: toc:nil
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_TRANS: linear
+#+REVEAL_THEME: night
+#+REVEAL_HLEVEL: 2
+#+REVEAL_HEAD_PREAMBLE: <meta name="description" content="Proyectos de Visualizar'17.">
+#+REVEAL_POSTAMBLE: <p> Creado por adolflow, Datalab. </p>
+#+REVEAL_PLUGINS: (highlight markdown notes)
+#+REVEAL_ROOT: ///cdn.jsdelivr.net/reveal.js/3.0.0/
+
+* Preguntas de Montera34
+
+- ¿Es posible otra gestión de los datos? Ciudadanía y bien común?
+- ¿Pasa por transparencia?
+- ¿Implica una comunicación diferente?
+- ¿Necesitamos mecanismos para la toma de decisiones?
+- ¿Son necesarios los espacios de encuentro?
+- ¿Resultan útiles los portales y herramientas de datos?
+- ¿Qué opinas de la alfadatización? ¿CPara la ciudadanía, las administraciones o ambas?
+
+* Los gobiernos deben devolver el poder a la gente para recuperar su confianza
+
+- El concejal de [[https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Contacto/Directorio-municipal/Areas-de-gobierno/Area-de-Gobierno-de-Participacion-Ciudadana-Transparencia-y-Gobierno-Abierto/?vgnextoid=2e0911135f5fd410VgnVCM2000000c205a0aRCRD&vgnextchannel=5dcf6e6e17ed6310VgnVCM1000000b205a0aRCRD][Participación Ciudadana, Transparencia y Gobierno Abierto]] del Ayuntamiento de Madrid, Pablo
+  Soto.
+- Miguel Arana en participación; Vicky Anderica en Datos Abiertos
+- [[https://opendatacharter.net/][Open Data Charter]]
+- Alianza para el Gobierno Abierto OGOP
+- [[http://opencitiessummit.org][Open Cities Summit]]
+- [[https://decide.madrid.es][decide.madrid.es]]
+- Acuerdo de colaboración con Madrid-Destino --> Medialab-Prado
+- [[https://tomadedecisiones.madrid.es/registration_lobbies/index][Registro de Lobbies]]
+- Agenda
+- [[https://transparenciapersonas.madrid.es/][Transparencia de personas]]
+
+** Organigrama del área
+[[https://transparencia.madrid.es/portales/transparencia/es/Organizacion/Organigramas-y-competencias/Area-de-Gobierno-de-Participacion-Ciudadana-Transparencia-y-Gobierno-Abierto/?vgnextoid=5a7eb99959e73510VgnVCM2000001f4a900aRCRD&vgnextchannel=6039508929a56510VgnVCM1000008a4a900aRCRD%0A][URL]]
+
+- Delegado del Área de Gobierno - Pablo Soto Bravo
+- Director General de Participación Ciudadana - Gregorio Planchuelo Sainz
+- Director General de Transparencia, Administración Electrónica y Calidad - Javier Moscoso del Prado Herrera
+- Directora General de Atención a la Ciudadanía - María Ángeles Castrillo Ortiz
+- [[https://sede.madrid.es/UnidadesDescentralizadas/AdministracionElectronica/Colecciones/PuestosPersonalEventual/EventualesAlcaAreasGobierno.pdf][Personal eventual]]
+ - Vocal asesor - Miguel Arana Catania
+ - Vocal asesora - Victoria Anderica Caffarena
+
+
+** Premio al servicio público de la ONU
+   :PROPERTIES:
+   :reveal_background: https://diario.madrid.es/decidemadrid/wp-content/uploads/sites/3/2018/07/premio2.jpg
+   :END:
+
+** Transparencia Madrid
+
+ - [[http://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Publicaciones/Listado-de-Publicaciones/Ordenanza-de-Transparencia-de-la-Ciudad-de-Madrid/?vgnextfmt=default&vgnextoid=a37eecef98d24510VgnVCM2000001f4a900aRCRD&vgnextchannel=f1aebadb6b997010VgnVCM100000dc0ca8c0RCRD][Ordenanza de transparencia ciudad de Madrid]]
+ - [[https://transparencia.madrid.es/portal/site/transparencia][Transparencia Ayto. Madrid]]
+ - [[https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextoid=48422ee1f6851510VgnVCM2000000c205a0aRCRD&vgnextchannel=d6e537c190180210VgnVCM100000c90da8c0RCRD][Derecho acceso información pública]], con correo electrónico.
+ - [[http://www.madrid.es/portaldetransparencia][Portal de transparencia de Madrid]]
+ - [[http://datos.madrid.es/][datos.madrid.es]], con [[https://datos.madrid.es/portal/site/egob/menuitem.214413fe61bdd68a53318ba0a8a409a0/?vgnextoid=b07e0f7c5ff9e510VgnVCM1000008a4a900aRCRD&vgnextchannel=b07e0f7c5ff9e510VgnVCM1000008a4a900aRCRD&vgnextfmt=default][API REST]]
+ - [[https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=5eb992682b193610VgnVCM1000001d4a900aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default][Presupuestos Madrid]]
+** II Plan en decide.madrid
+- [[https://www.medialab-prado.es/actividades/presentacion-del-segundo-plan-de-accion-de-gobierno-abierto-de-la-ciudad-de-madrid%0A][Presentación segundo plan gobierno abierto Madrid]]
+- [[https://decide.madrid.es/legislation/processes/51/draft_versions/14][II Plan en decide.madrid]]
+
+*** Madrid en datos:
+
+- Refrendo de apuesta por los datos abiertos.
+- Ordenanza de Transparencia.
+- Carta Internacional de Datos Abiertos u Open Data Charter.
+- Portal de Datos Abiertos del Ayuntamiento de Madrid.
+- Visualización de datos: infraestructuras, transporte, servicios, instalaciones educativas y deportivas...
+*** Transparencia en la gestión de residuos
+- Plataforma de información de residuos de Madrid
+- Compilar, analizar y trasladar la información relevante y los datos concretos de generación de residuos, flujos de cada uno de ellos, actividades de prevención, sistemas de gestión y tratamiento de residuos y costes del sistema.
+*** Creación del Observatorio de la Ciudad
+- Nuevo modelo de espacio de participación y seguimiento de la actuación municipal, que represente de manera
+  *fiel* a la población madrileña.
+- Carácter permanente, e independencia en su actuación y funcionamiento.
+- Órgano de la ciudadanía, con funciones de seguimiento de la acción
+  municipal y de sus políticas, al objeto de realizar propuestas de actuación.
+- Observar y analizar la actuación municipal, para proponer áreas de mejora.
+- Analizar las propuestas ciudadanas más apoyadas para mejorarlas y en caso de que sean adecuadas llevarlas a
+  votación ciudadana.
+
+*** Creación del Observatorio de la Ciudad (II)
+
+- Convocar *audiencias públicas* sobre asuntos de especial trascendencia para la ciudadanía.
+- Emitir *informe* sobre cuestiones especialmente significativas de la acción municipal y de los procesos de
+  aprobación y modificación normativa, a propuesta del Pleno, Alcaldía, o Junta de Gobierno.
+- Incorporar la *voz de la ciudadanía* para establecer las prioridades de la política municipal.
+- *Miembrxs elegidxs aleatoriamente* y de manera tal que supongan una muestra demográficamente representativa de
+  la población de la Ciudad de Madrid.
+- El observatorio se reunirá de manera *periódica*, y sus miembrxs serán *renovados cada año*.
+*** Creación de un buzón anónimo de denuncias
+
+- La *Oficina Municipal contra el Fraude y la Corrupción* incorpora a su sistema de denuncias una vía que asegure técnicamente el *anonimato* de lxs denunciantes.
+- Se utilizará la tecnología de /GlobaLeaks/, un sistema de *código abierto*.
+- Funciona junto con el cifrado *PGP* y el Navegador *Tor*
+*** Compromiso abierto a las propuestas de la ciudadanía.
+
+Cualquier persona puede proponer un compromiso de Gobierno Abierto para la Ciudad de Madrid. Los compromisos
+que se propongan serán remitidos a las áreas correspondientes para su estudio. 
+
+
+* Datalab
+
+#+attr_html: :width 400px
+https://github.com/medialab-prado/v17-presentacion/raw/master/img/logo-datalab.png 
+
+- Uno de los 6 laboratorios del Datalab de Medialab-Prado
+
+** Actividades
+- Taller de Producción de Periodismo de Datos /TPPD/. ODS
+- Taller de Visualización de Datos Visualizar /V18/: Datos Personales
+- Jornadas de Periodismo de Datos /JPD/
+- Día del Amor por el Software Libre /ILOVEFS/
+- Día de los Datos Abiertos /ODD/
+- Día de Ada Lovelace /Adaday/ 
+- Otras...
+
+** Un taller como Visualizar
+
+#+ATTR_REVEAL: :frag (appear)
+- Taller Internacional de prototipado de proyectos de Visualización de Datos
+- 8 proyectos
+- 70 colaboradorxs, 10 ponentes, 12 mentorxs, 4 mediadorxs, 1 organizador, 2 apoyos.
+- 15 días: simposio, 2; taller, 12; descanso, 1; presentación: 1/2
+- Convocatoria abierta de proyectos y colaboradorxs
+- 4 entidades colaboradoras.
+
+* Medialab-Prado
+  :PROPERTIES:
+  :reveal_background: https://github.com/medialab-prado/v17-presentacion/raw/master/img/visualizar17.jpg
+  :END:
+** Laboratorio ciudadano
+   :PROPERTIES:
+   :reveal_background: https://www.medialab-prado.es/sites/default/files/styles/imagenes_grandes/public/article/image/34598686833_3a2c1cccba_o.jpg
+   :END:
+*** Experimenta Distrito
+https://www.medialab-prado.es/noticias/vivan-los-laboratorios-ciudadanos
+#+ATTR_REVEAL: :frag (appear)
+
+- Impulso desde la ciudadanía
+- Procesos de innovación
+- Búsqueda de la transformación social
+- Contribución al desarrollo cultural, económico y social.
+- Contextos de producción abierta y colaborativa, accesibles e inclusivos.
+- Diversidad de lxs usuarios
+- Proyectos que mejoran la calidad de vida de las personas o las condiciones de nuestro espacio público.
+
+** Grupos de trabajo
+   :PROPERTIES:
+   :reveal_background: https://www.medialab-prado.es/sites/default/files/styles/imagenes_medianas/public/2018-02/IMG_20180215_185858.jpg?itok=gGyow0ko
+   :END:
+
+*** Algunos grupos de trabajo
+- [[https://www.medialab-prado.es/actividades/autofabricantes][Autofabricantes]]
+- [[https://www.medialab-prado.es/actividades/lingwars-presentacion-de-gaplen-grupo-de-aprendizaje-de-pln-con-python-y-nltk][LINGWARS]]
+- [[https://www.medialab-prado.es/actividades/cuarto-propio-en-wikipedia][Un cuarto propio en Wikipedia]]
+- [[https://www.medialab-prado.es/actividades/espacio-de-aprendizaje-abierto-r][Espacio de aPrendizaje Abierto]]
+- [[https://www.medialab-prado.es/actividades/journocodersmad-han-vuelto][JournocodersMAD]]
+
+** Portal de transparencia
+- [[https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=99ccb6afc9239410VgnVCM1000000b205a0aRCRD&vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&vgnextfmt=default&idValorado=99ccb6afc9239410VgnVCM1000000b205a0aRCRD][Actividades en datos.madrid.es]]
+- [[https://duckduckgo.com/?q=site%253Amadrid-destino.com+Medialab-Prad+filetye%253Axls&t=ffsb&ia=web][Archivos xls en madrid-destino.com]]
+
+* Madrid-Destino
+La empresa pública dependiente del Área de Cultura del Ayto. de Madrid a a la que pertenece Medialab-Prado.
+
+- [[https://www.madrid-destino.com/transparencia][Transparencia Madrid-Destino]]
+- [[https://www.madrid-destino.com/turismo/estadisticas][Estadísticas Madrid-Destino]]
+
+* Acceso a la información España
+- Artículo 105.b) de la Constitución Española
+- Desarrollado en la [[http://transparencia.gob.es/transparencia/transparencia_Home/index/MasInformacion/Ley-de-Transparencia.html][Ley 19/2013 de Transparencia, Acceso a la Información y Buen Gobierno]]
+** UNESCO 
+http://www.unesco.org/new/es/communication-and-information/intergovernmental-programmes/information-for-all-programme-ifap/priorities/information-accessibility/
+- Disponibilidad
+- Accesibilidad
+- Asequibilidad de la información
+- Multilingüismo
+- Metadatos
+- Interoperabilidad, los programas informáticos (de fuente abierta)
+- Contenido libre (licencias Creative Commons)
+- Accesibilidad contenidos web
+
+** Recomendación 2003 UNESCO
+- En 2003, la UNESCO aprobó una Recomendación sobre la promoción y el uso del plurilingüismo y el acceso
+  universal al ciberespacio.
+- Promueve el plurilingüismo y un equilibrio equitativo entre los intereses de los titulares de la información
+  y el interés público.
+- Respaldo a los programas informáticos gratuitos y de código fuente abierto y los recursos educativos de
+  libre acceso.
+- Plurilingüismo en el ciberespacio.
+- Uso de las TIC para conseguir un acceso más equitativo a la información.
+
+* Transparencia estado
+http://transparencia.gob.es/
+- Encuentre la información
+- Solicítela
+- Gobierno Abierto
+- Participe
+
+* Entidades de la transparencia
+- [[https://datos.gob.es][datos.gob.es]]
+- [[https://consejodetransparencia.es][Consejo de la Transparencia y Buen Gobierno]], CTBG.
+- [[http://transparencia.gob.es/transparencia/transparencia_Home/index/Gobierno-abierto/aIIIPlanAccion/CompromisosIIIPGA.html][Compromiso III Plan de Gobierno Abierto]]
+- [[http://www.boe.es/][BOE]] y [[http://www.boe.es/legislacion/enlaces/boletines_autonomicos.php][boletines autonómicos]].
+- [[http://www.boe.es/diario_borme/][BORME]] vs [[https://libreborme.net/][Libre BORME]]
+- [[http://www.hacienda.gob.es/es-ES/CDI/Paginas/centraldeinformacion.aspx][Central de información económico financiera]]
+- [[http://ine.es/][INE]]
+** Consejo de Transparencia
+https://politica.elpais.com/politica/2018/06/20/actualidad/1529505765_330795.html
+- Menos de 14000 solicitudes en tres años y medio.
+- Reclamaciones de Administración general y 6 CCAA: Asturias, Cantabria, La Rioja, Extremadura, Castilla-La Mancha, Comunidad
+  de Madrid, Ceuta y Melilla.
+- Madrid: 400 reclamaciones
+- 22% menos presupuesto.
+- Sin presidente
+- Sin reglamento
+- Mayor carga de trabajo: pleitos del gobierno para no dar la información de lxs ciudadanxs.
+- Presupuesto para contratar abogadxs. 
+
+* Por último, ¿qué es transparencia?
+
+Según [[https://diarioresponsable.com/noticias/26484-siete-claves-para-alcanzar-la-transparencia][diarioresponsable]], la transparencia implica:
+
+- Accesibilidad
+- Relevancia
+- Lenguaje claro
+- Materialidad: aspectos que alcanzan determinadas circunstancias que deben ser reportados.
+- Trazabilidad
+- /Follow the money/
+- Contexto
+
+
+* Visualizar18
+  :PROPERTIES:
+  :reveal_background: https://www.medialab-prado.es/sites/default/files/styles/banner_convocatoria_1250x200_/public/call/image/web_convocatoria-1250x833-visualizar18.png
+  :END:
+** Datos Personales
+- Vamos a trabajar los [[https://www.medialab-prado.es/programas/visualizar18-datos-personales][datos personales]]
+- [[https://www.medialab-prado.es/convocatorias/visualizar18-convocatoria-de-proyectos][Presenta tu proyecto]] hasta el 26 de agosto
+- Si quieres colaborar:
+ - adolfo@medialab-prado.es
+ - tw:@adolflow
+ - gh:@flowsta
+
+* Gracias

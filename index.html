@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Datalab transparente</title>
+<meta name="author" content="(Adolfo A. Bravo)"/>
+<meta name="description" content="Acometer un proyecto en Medialab-Prado"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="///cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="///cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/night.css" id="theme"/>
+
+<link rel="stylesheet" href="///cdn.jsdelivr.net/reveal.js/3.0.0/lib/css/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '///cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+<meta name="description" content="Proyectos de Visualizar'17.">
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section>
+<section id="slide-org0dd4cc9">
+<h2 id="org0dd4cc9">Preguntas de Montera34</h2>
+<ul>
+<li>¿Es posible otra gestión de los datos? Ciudadanía y bien común?</li>
+<li>¿Pasa por transparencia?</li>
+<li>¿Implica una comunicación diferente?</li>
+<li>¿Necesitamos mecanismos para la toma de decisiones?</li>
+<li>¿Son necesarios los espacios de encuentro?</li>
+<li>¿Resultan útiles los portales y herramientas de datos?</li>
+<li>¿Qué opinas de la alfadatización? ¿CPara la ciudadanía, las administraciones o ambas?</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org03b2918">
+<h2 id="org03b2918">Los gobiernos deben devolver el poder a la gente para recuperar su confianza</h2>
+<ul>
+<li>El concejal de <a href="https://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Contacto/Directorio-municipal/Areas-de-gobierno/Area-de-Gobierno-de-Participacion-Ciudadana-Transparencia-y-Gobierno-Abierto/?vgnextoid=2e0911135f5fd410VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=5dcf6e6e17ed6310VgnVCM1000000b205a0aRCRD">Participación Ciudadana, Transparencia y Gobierno Abierto</a> del Ayuntamiento de Madrid, Pablo
+Soto.</li>
+<li>Miguel Arana en participación; Vicky Anderica en Datos Abiertos</li>
+<li><a href="https://opendatacharter.net/">Open Data Charter</a></li>
+<li><a href="http://opengovpartnership.org">Alianza para el Gobierno Abierto OGOP</a></li>
+<li><a href="http://opencitiessummit.org">Open Cities Summit</a></li>
+<li><a href="https://decide.madrid.es">decide.madrid.es</a></li>
+<li>Acuerdo de colaboración con Madrid-Destino &#x2013;&gt; Medialab-Prado</li>
+<li><a href="https://tomadedecisiones.madrid.es/registration_lobbies/index">Registro de Lobbies</a></li>
+<li>Agenda</li>
+<li><a href="https://transparenciapersonas.madrid.es/">Transparencia de personas</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org259e60d">
+<h3 id="org259e60d">Organigrama del área</h3>
+<p>
+<a href="https://transparencia.madrid.es/portales/transparencia/es/Organizacion/Organigramas-y-competencias/Area-de-Gobierno-de-Participacion-Ciudadana-Transparencia-y-Gobierno-Abierto/?vgnextoid=5a7eb99959e73510VgnVCM2000001f4a900aRCRD&amp;vgnextchannel=6039508929a56510VgnVCM1000008a4a900aRCRD%0A">URL</a>
+</p>
+
+<ul>
+<li>Delegado del Área de Gobierno - Pablo Soto Bravo</li>
+<li>Director General de Participación Ciudadana - Gregorio Planchuelo Sainz</li>
+<li>Director General de Transparencia, Administración Electrónica y Calidad - Javier Moscoso del Prado Herrera</li>
+<li>Directora General de Atención a la Ciudadanía - María Ángeles Castrillo Ortiz</li>
+<li><a href="https://sede.madrid.es/UnidadesDescentralizadas/AdministracionElectronica/Colecciones/PuestosPersonalEventual/EventualesAlcaAreasGobierno.pdf">Personal eventual</a>
+<ul>
+<li>Vocal asesor - Miguel Arana Catania</li>
+<li>Vocal asesora - Victoria Anderica Caffarena</li>
+
+</ul></li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org87a74d2" data-background="https://diario.madrid.es/decidemadrid/wp-content/uploads/sites/3/2018/07/premio2.jpg">
+<h3 id="org87a74d2">Premio al servicio público de la ONU</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org9bbe8d1">
+<h3 id="org9bbe8d1">Transparencia Madrid</h3>
+<ul>
+<li><a href="http://www.madrid.es/portales/munimadrid/es/Inicio/El-Ayuntamiento/Publicaciones/Listado-de-Publicaciones/Ordenanza-de-Transparencia-de-la-Ciudad-de-Madrid/?vgnextfmt=default&amp;vgnextoid=a37eecef98d24510VgnVCM2000001f4a900aRCRD&amp;vgnextchannel=f1aebadb6b997010VgnVCM100000dc0ca8c0RCRD">Ordenanza de transparencia ciudad de Madrid</a></li>
+<li><a href="https://transparencia.madrid.es/portal/site/transparencia">Transparencia Ayto. Madrid</a></li>
+<li><a href="https://sede.madrid.es/portal/site/tramites/menuitem.62876cb64654a55e2dbd7003a8a409a0/?vgnextoid=48422ee1f6851510VgnVCM2000000c205a0aRCRD&amp;vgnextchannel=d6e537c190180210VgnVCM100000c90da8c0RCRD">Derecho acceso información pública</a>, con correo electrónico.</li>
+<li><a href="http://www.madrid.es/portaldetransparencia">Portal de transparencia de Madrid</a></li>
+<li><a href="http://datos.madrid.es/">datos.madrid.es</a>, con <a href="https://datos.madrid.es/portal/site/egob/menuitem.214413fe61bdd68a53318ba0a8a409a0/?vgnextoid=b07e0f7c5ff9e510VgnVCM1000008a4a900aRCRD&amp;vgnextchannel=b07e0f7c5ff9e510VgnVCM1000008a4a900aRCRD&amp;vgnextfmt=default">API REST</a></li>
+<li><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=5eb992682b193610VgnVCM1000001d4a900aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default">Presupuestos Madrid</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orged43fb7">
+<h3 id="orged43fb7">II Plan en decide.madrid</h3>
+<ul>
+<li><a href="https://www.medialab-prado.es/actividades/presentacion-del-segundo-plan-de-accion-de-gobierno-abierto-de-la-ciudad-de-madrid%0A">Presentación segundo plan gobierno abierto Madrid</a></li>
+<li><a href="https://decide.madrid.es/legislation/processes/51/draft_versions/14">II Plan en decide.madrid</a></li>
+
+</ul>
+
+</section>
+<section id="slide-org43fbf07">
+<h4 id="org43fbf07">Madrid en datos:</h4>
+<ul>
+<li>Refrendo de apuesta por los datos abiertos.</li>
+<li>Ordenanza de Transparencia.</li>
+<li>Carta Internacional de Datos Abiertos u Open Data Charter.</li>
+<li>Portal de Datos Abiertos del Ayuntamiento de Madrid.</li>
+<li>Visualización de datos: infraestructuras, transporte, servicios, instalaciones educativas y deportivas&#x2026;</li>
+
+</ul>
+</section>
+<section id="slide-orge44040a">
+<h4 id="orge44040a">Transparencia en la gestión de residuos</h4>
+<ul>
+<li>Plataforma de información de residuos de Madrid</li>
+<li>Compilar, analizar y trasladar la información relevante y los datos concretos de generación de residuos, flujos de cada uno de ellos, actividades de prevención, sistemas de gestión y tratamiento de residuos y costes del sistema.</li>
+
+</ul>
+</section>
+<section id="slide-orgdccbaa4">
+<h4 id="orgdccbaa4">Creación del Observatorio de la Ciudad</h4>
+<ul>
+<li>Nuevo modelo de espacio de participación y seguimiento de la actuación municipal, que represente de manera
+<b>fiel</b> a la población madrileña.</li>
+<li>Carácter permanente, e independencia en su actuación y funcionamiento.</li>
+<li>Órgano de la ciudadanía, con funciones de seguimiento de la acción
+municipal y de sus políticas, al objeto de realizar propuestas de actuación.</li>
+<li>Observar y analizar la actuación municipal, para proponer áreas de mejora.</li>
+<li>Analizar las propuestas ciudadanas más apoyadas para mejorarlas y en caso de que sean adecuadas llevarlas a
+votación ciudadana.</li>
+
+</ul>
+
+</section>
+<section id="slide-orgb628e3d">
+<h4 id="orgb628e3d">Creación del Observatorio de la Ciudad (II)</h4>
+<ul>
+<li>Convocar <b>audiencias públicas</b> sobre asuntos de especial trascendencia para la ciudadanía.</li>
+<li>Emitir <b>informe</b> sobre cuestiones especialmente significativas de la acción municipal y de los procesos de
+aprobación y modificación normativa, a propuesta del Pleno, Alcaldía, o Junta de Gobierno.</li>
+<li>Incorporar la <b>voz de la ciudadanía</b> para establecer las prioridades de la política municipal.</li>
+<li><b>Miembrxs elegidxs aleatoriamente</b> y de manera tal que supongan una muestra demográficamente representativa de
+la población de la Ciudad de Madrid.</li>
+<li>El observatorio se reunirá de manera <b>periódica</b>, y sus miembrxs serán <b>renovados cada año</b>.</li>
+
+</ul>
+</section>
+<section id="slide-org83a9d9b">
+<h4 id="org83a9d9b">Creación de un buzón anónimo de denuncias</h4>
+<ul>
+<li>La <b>Oficina Municipal contra el Fraude y la Corrupción</b> incorpora a su sistema de denuncias una vía que asegure técnicamente el <b>anonimato</b> de lxs denunciantes.</li>
+<li>Se utilizará la tecnología de <i>GlobaLeaks</i>, un sistema de <b>código abierto</b>.</li>
+<li>Funciona junto con el cifrado <b>PGP</b> y el Navegador <b>Tor</b></li>
+
+</ul>
+</section>
+<section id="slide-orgf6fa9a6">
+<h4 id="orgf6fa9a6">Compromiso abierto a las propuestas de la ciudadanía.</h4>
+<p>
+Cualquier persona puede proponer un compromiso de Gobierno Abierto para la Ciudad de Madrid. Los compromisos
+que se propongan serán remitidos a las áreas correspondientes para su estudio. 
+</p>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org18a0fea">
+<h2 id="org18a0fea">Datalab</h2>
+
+<div class="figure">
+<p><img src="https://github.com/medialab-prado/v17-presentacion/raw/master/img/logo-datalab.png" alt="logo-datalab.png" width="400px" /> 
+</p>
+</div>
+
+<ul>
+<li>Uno de los 6 laboratorios del Datalab de Medialab-Prado</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgf9ddc61">
+<h3 id="orgf9ddc61">Actividades</h3>
+<ul>
+<li>Taller de Producción de Periodismo de Datos <i>TPPD</i>. ODS</li>
+<li>Taller de Visualización de Datos Visualizar <i>V18</i>: Datos Personales</li>
+<li>Jornadas de Periodismo de Datos <i>JPD</i></li>
+<li>Día del Amor por el Software Libre <i>ILOVEFS</i></li>
+<li>Día de los Datos Abiertos <i>ODD</i></li>
+<li>Día de Ada Lovelace <i>Adaday</i></li>
+<li>Otras&#x2026;</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org56c298c">
+<h3 id="org56c298c">Un taller como Visualizar</h3>
+<ul>
+<li class="fragment appear">Taller Internacional de prototipado de proyectos de Visualización de Datos</li>
+<li class="fragment appear">8 proyectos</li>
+<li class="fragment appear">70 colaboradorxs, 10 ponentes, 12 mentorxs, 4 mediadorxs, 1 organizador, 2 apoyos.</li>
+<li class="fragment appear">15 días: simposio, 2; taller, 12; descanso, 1; presentación: 1/2</li>
+<li class="fragment appear">Convocatoria abierta de proyectos y colaboradorxs</li>
+<li class="fragment appear">4 entidades colaboradoras.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org65ff5d7" data-background="https://github.com/medialab-prado/v17-presentacion/raw/master/img/visualizar17.jpg">
+<h2 id="org65ff5d7">Medialab-Prado</h2>
+</section>
+</section>
+<section>
+<section id="slide-org284fb26" data-background="https://www.medialab-prado.es/sites/default/files/styles/imagenes_grandes/public/article/image/34598686833_3a2c1cccba_o.jpg">
+<h3 id="org284fb26">Laboratorio ciudadano</h3>
+</section>
+<section id="slide-org7b16663">
+<h4 id="org7b16663">Experimenta Distrito</h4>
+<p>
+<a href="https://www.medialab-prado.es/noticias/vivan-los-laboratorios-ciudadanos">https://www.medialab-prado.es/noticias/vivan-los-laboratorios-ciudadanos</a>
+</p>
+<ul>
+<li>Impulso desde la ciudadanía</li>
+<li>Procesos de innovación</li>
+<li>Búsqueda de la transformación social</li>
+<li>Contribución al desarrollo cultural, económico y social.</li>
+<li>Contextos de producción abierta y colaborativa, accesibles e inclusivos.</li>
+<li>Diversidad de lxs usuarios</li>
+<li>Proyectos que mejoran la calidad de vida de las personas o las condiciones de nuestro espacio público.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org472d0db" data-background="https://www.medialab-prado.es/sites/default/files/styles/imagenes_medianas/public/2018-02/IMG_20180215_185858.jpg?itok=gGyow0ko">
+<h3 id="org472d0db">Grupos de trabajo</h3>
+</section>
+<section id="slide-org63a6144">
+<h4 id="org63a6144">Algunos grupos de trabajo</h4>
+<ul>
+<li><a href="https://www.medialab-prado.es/actividades/autofabricantes">Autofabricantes</a></li>
+<li><a href="https://www.medialab-prado.es/actividades/lingwars-presentacion-de-gaplen-grupo-de-aprendizaje-de-pln-con-python-y-nltk">LINGWARS</a></li>
+<li><a href="https://www.medialab-prado.es/actividades/cuarto-propio-en-wikipedia">Un cuarto propio en Wikipedia</a></li>
+<li><a href="https://www.medialab-prado.es/actividades/espacio-de-aprendizaje-abierto-r">Espacio de aPrendizaje Abierto</a></li>
+<li><a href="https://www.medialab-prado.es/actividades/journocodersmad-han-vuelto">JournocodersMAD</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgf122574">
+<h3 id="orgf122574">Portal de transparencia</h3>
+<ul>
+<li><a href="https://datos.madrid.es/portal/site/egob/menuitem.c05c1f754a33a9fbe4b2e4b284f1a5a0/?vgnextoid=99ccb6afc9239410VgnVCM1000000b205a0aRCRD&amp;vgnextchannel=374512b9ace9f310VgnVCM100000171f5a0aRCRD&amp;vgnextfmt=default&amp;idValorado=99ccb6afc9239410VgnVCM1000000b205a0aRCRD">Actividades en datos.madrid.es</a></li>
+<li><a href="https://duckduckgo.com/?q=site%3Amadrid-destino.com+Medialab-Prad+filetye%3Axls&amp;t=ffsb&amp;ia=web">Archivos xls en madrid-destino.com</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org4f04cc2">
+<h2 id="org4f04cc2">Madrid-Destino</h2>
+<p>
+La empresa pública dependiente del Área de Cultura del Ayto. de Madrid a a la que pertenece Medialab-Prado.
+</p>
+
+<ul>
+<li><a href="https://www.madrid-destino.com/transparencia">Transparencia Madrid-Destino</a></li>
+<li><a href="https://www.madrid-destino.com/turismo/estadisticas">Estadísticas Madrid-Destino</a></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org201a6c2">
+<h2 id="org201a6c2">Acceso a la información España</h2>
+<ul>
+<li>Artículo 105.b) de la Constitución Española</li>
+<li>Desarrollado en la <a href="http://transparencia.gob.es/transparencia/transparencia_Home/index/MasInformacion/Ley-de-Transparencia.html">Ley 19/2013 de Transparencia, Acceso a la Información y Buen Gobierno</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org4d212af">
+<h3 id="org4d212af">UNESCO</h3>
+<p>
+<a href="http://www.unesco.org/new/es/communication-and-information/intergovernmental-programmes/information-for-all-programme-ifap/priorities/information-accessibility/">http://www.unesco.org/new/es/communication-and-information/intergovernmental-programmes/information-for-all-programme-ifap/priorities/information-accessibility/</a>
+</p>
+<ul>
+<li>Disponibilidad</li>
+<li>Accesibilidad</li>
+<li>Asequibilidad de la información</li>
+<li>Multilingüismo</li>
+<li>Metadatos</li>
+<li>Interoperabilidad, los programas informáticos (de fuente abierta)</li>
+<li>Contenido libre (licencias Creative Commons)</li>
+<li>Accesibilidad contenidos web</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orge7b73f4">
+<h3 id="orge7b73f4">Recomendación 2003 UNESCO</h3>
+<ul>
+<li>En 2003, la UNESCO aprobó una Recomendación sobre la promoción y el uso del plurilingüismo y el acceso
+universal al ciberespacio.</li>
+<li>Promueve el plurilingüismo y un equilibrio equitativo entre los intereses de los titulares de la información
+y el interés público.</li>
+<li>Respaldo a los programas informáticos gratuitos y de código fuente abierto y los recursos educativos de
+libre acceso.</li>
+<li>Plurilingüismo en el ciberespacio.</li>
+<li>Uso de las TIC para conseguir un acceso más equitativo a la información.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-org4c2f99f">
+<h2 id="org4c2f99f">Transparencia estado</h2>
+<p>
+<a href="http://transparencia.gob.es/">http://transparencia.gob.es/</a>
+</p>
+<ul>
+<li>Encuentre la información</li>
+<li>Solicítela</li>
+<li>Gobierno Abierto</li>
+<li>Participe</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgb71f41b">
+<h2 id="orgb71f41b">Entidades de la transparencia</h2>
+<ul>
+<li><a href="https://datos.gob.es">datos.gob.es</a></li>
+<li><a href="https://consejodetransparencia.es">Consejo de la Transparencia y Buen Gobierno</a>, CTBG.</li>
+<li><a href="http://transparencia.gob.es/transparencia/transparencia_Home/index/Gobierno-abierto/aIIIPlanAccion/CompromisosIIIPGA.html">Compromiso III Plan de Gobierno Abierto</a></li>
+<li><a href="http://www.boe.es/">BOE</a> y <a href="http://www.boe.es/legislacion/enlaces/boletines_autonomicos.php">boletines autonómicos</a>.</li>
+<li><a href="http://www.boe.es/diario_borme/">BORME</a> vs <a href="https://libreborme.net/">Libre BORME</a></li>
+<li><a href="http://www.hacienda.gob.es/es-ES/CDI/Paginas/centraldeinformacion.aspx">Central de información económico financiera</a></li>
+<li><a href="http://ine.es/">INE</a></li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org61ad7dd">
+<h3 id="org61ad7dd">Consejo de Transparencia</h3>
+<p>
+<a href="https://politica.elpais.com/politica/2018/06/20/actualidad/1529505765_330795.html">https://politica.elpais.com/politica/2018/06/20/actualidad/1529505765_330795.html</a>
+</p>
+<ul>
+<li>Menos de 14000 solicitudes en tres años y medio.</li>
+<li>Reclamaciones de Administración general y 6 CCAA: Asturias, Cantabria, La Rioja, Extremadura, Castilla-La Mancha, Comunidad
+de Madrid, Ceuta y Melilla.</li>
+<li>Madrid: 400 reclamaciones</li>
+<li>22% menos presupuesto.</li>
+<li>Sin presidente</li>
+<li>Sin reglamento</li>
+<li>Mayor carga de trabajo: pleitos del gobierno para no dar la información de lxs ciudadanxs.</li>
+<li>Presupuesto para contratar abogadxs.</li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orga2745b0">
+<h2 id="orga2745b0">Por último, ¿qué es transparencia?</h2>
+<p>
+Según <a href="https://diarioresponsable.com/noticias/26484-siete-claves-para-alcanzar-la-transparencia">diarioresponsable</a>, la transparencia implica:
+</p>
+
+<ul>
+<li>Accesibilidad</li>
+<li>Relevancia</li>
+<li>Lenguaje claro</li>
+<li>Materialidad: aspectos que alcanzan determinadas circunstancias que deben ser reportados.</li>
+<li>Trazabilidad</li>
+<li><i>Follow the money</i></li>
+<li>Contexto</li>
+
+</ul>
+
+
+</section>
+</section>
+<section>
+<section id="slide-org06ed173" data-background="https://www.medialab-prado.es/sites/default/files/styles/banner_convocatoria_1250x200_/public/call/image/web_convocatoria-1250x833-visualizar18.png">
+<h2 id="org06ed173">Visualizar18</h2>
+</section>
+</section>
+<section>
+<section id="slide-org5e2705d">
+<h3 id="org5e2705d">Datos Personales</h3>
+<ul>
+<li>Vamos a trabajar los <a href="https://www.medialab-prado.es/programas/visualizar18-datos-personales">datos personales</a></li>
+<li><a href="https://www.medialab-prado.es/convocatorias/visualizar18-convocatoria-de-proyectos">Presenta tu proyecto</a> hasta el 26 de agosto</li>
+<li>Si quieres colaborar:
+<ul>
+<li>adolfo@medialab-prado.es</li>
+<li>tw:@adolflow</li>
+<li>gh:@flowsta</li>
+
+</ul></li>
+
+</ul>
+
+</section>
+</section>
+<section>
+<section id="slide-orgfe09749">
+<h2 id="orgfe09749">Gracias</h2>
+</section>
+</section>
+</div>
+</div>
+<p> Creado por adolflow, Datalab. </p>
+<script src="///cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="///cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: true,
+keyboard: true,
+overview: true,
+width: 1200,
+height: 800,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '///cdn.jsdelivr.net/reveal.js/3.0.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: '///cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '///cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '///cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
