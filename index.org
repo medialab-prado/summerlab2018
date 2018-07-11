@@ -39,7 +39,7 @@
   Soto.
 - Miguel Arana en participación; Vicky Anderica en Datos Abiertos
 - [[https://opendatacharter.net/][Open Data Charter]]
-- Alianza para el Gobierno Abierto OGOP
+- [[http://opengovpartnership.org][Alianza para el Gobierno Abierto OGOP]]
 - [[http://opencitiessummit.org][Open Cities Summit]]
 - [[https://decide.madrid.es][decide.madrid.es]]
 - Acuerdo de colaboración con Madrid-Destino --> Medialab-Prado
@@ -123,14 +123,22 @@ https://github.com/medialab-prado/v17-presentacion/raw/master/img/logo-datalab.p
 
 - Uno de los 6 laboratorios del Datalab de Medialab-Prado
 
-** Actividades
+** Algunas actividades
 - Taller de Producción de Periodismo de Datos /TPPD/. ODS
 - Taller de Visualización de Datos Visualizar /V18/: Datos Personales
 - Jornadas de Periodismo de Datos /JPD/
+- [[https://mediala-prado.github.io/datamad2017][Premios de Datos Abiertos del Ayuntamiento de Madrid]].
+- [[http://femp.femp.es/files/3580-1565-fichero/GRUPO%2520DE%2520DATOS%2520ABIERTOS%2520DE%2520LA%2520RED%2520DE%2520ENTIDADES%2520LOCALES%2520POR%2520LA%2520TRANSPARENCIA%2520Y%2520PARTICIPACI%25C3%2593N%2520CIUDADANA.pdf][Guía de datos abiertos de la FEMP]]
 - Día del Amor por el Software Libre /ILOVEFS/
 - Día de los Datos Abiertos /ODD/
 - Día de Ada Lovelace /Adaday/ 
 - Otras...
+** FEMP
+- Grupo de Datos Abiertos de la Red de Entidades locales por la transparencia y la participación ciudadana.
+- Academia, entidades sociales, empresas, particulares
+- Ojo al Data, 2015
+- Ojo al Data 100
+- Guía estratégica para su puesta en marcha Conjuntos de datos mínimos a publicar.
 
 ** Un taller como Visualizar
 
@@ -185,8 +193,13 @@ La empresa pública dependiente del Área de Cultura del Ayto. de Madrid a a la 
 - [[https://www.madrid-destino.com/turismo/estadisticas][Estadísticas Madrid-Destino]]
 
 * Acceso a la información España
-- Artículo 105.b) de la Constitución Española
+- Artículo 105.b) de la Constitución Española garantiza "el acceso de los ciudadanos a los archivos y registros administrativos, salvo en lo que 
+afecte a la seguridad y defensa del Estado, la averiguación de los delitos y la intimidad de las personas".
 - Desarrollado en la [[http://transparencia.gob.es/transparencia/transparencia_Home/index/MasInformacion/Ley-de-Transparencia.html][Ley 19/2013 de Transparencia, Acceso a la Información y Buen Gobierno]]
+- El artículo 20.1.d hace referencia a "comunicar o recibir libremente información veraz por cualquier medio de
+  difusión"
+- El artículo 23.1 llama a "participar en los asuntos públicos directamente".
+
 ** UNESCO 
 http://www.unesco.org/new/es/communication-and-information/intergovernmental-programmes/information-for-all-programme-ifap/priorities/information-accessibility/
 - Disponibilidad
